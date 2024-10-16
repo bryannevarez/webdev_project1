@@ -1,74 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    background: #b1d2e8;
-    margin: 0;
-}
-
-ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-}
-
-ul li a:hover {
-    background: #2980b9;
-    border-radius: 5px;
-}
-
-h1 {
-    color: #6d8093;
-    margin-top: 20px;
-}
-
-h2 {
-    color: #6d8093;
-    margin-top: 30px;
-}
-
-p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-
-section {
-    background: white;
-    border-radius: 5px;
-    padding: 15px;
-    margin: 15px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-ul {
-    padding-left: 20px;
-}
-
-footer {
-    background: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  }
+  
+  .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  }
+  
+  ul {
+  list-style-type: none;
+  padding: 0;
+  background: #3498db;
+  margin: 0;
+  }
+  
+  ul li {
+  display: inline;
+  margin-right: 15px;
+  }
+  
+  ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  }
+  
+  ul li a:hover {
+  background: #2980b9;
+  border-radius: 5px;
+  }
+  
+  h1 {
+  color: #2c3e50;
+  margin-top: 20px;
+  }
+  
+  h2 {
+  color: #2c3e50;
+  margin-top: 30px;
+  }
+  
+  p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  }
+  
+  section {
+      background: white;
+      border-radius: 5px;
+      padding: 15px;
+      margin: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  ul {
+      padding-left: 20px;
+  }
+  
+  footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+  }
