@@ -1,75 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto' 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
-  }
+}
   
-  .container {
+.container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: auto;
-  padding: 20px;
-  }
+  padding: 1.25rem;
+}
   
-  ul {
-  list-style-type: none;
-  padding: 0;
+nav {
   background: #3498db;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
-  }
+}
   
-  ul li {
-  display: inline;
-  margin-right: 15px;
-  }
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
   
-  ul li a {
+nav ul li a {
   color: white;
   text-decoration: none;
-  padding: 10px 15px;
-  }
+  padding: 0.625rem 1rem;
+}
   
-  ul li a:hover {
+nav ul li a:hover {
   background: #2980b9;
-  border-radius: 5px;
-  }
+  border-radius: 0.313rem;
+}
   
-  h1 {
+h1 {
   color: #2c3e50;
-  margin-top: 20px;
-  }
+  margin-top: 1.25rem;
+}
   
-  h2 {
+h2 {
   color: #2c3e50;
-  margin-top: 30px;
-  }
+  margin-top: 1.875rem;
+}
   
-  p {
+p {
   line-height: 1.6;
-  margin-bottom: 15px;
-  }
+  margin-bottom: 1rem;
+}
   
-  section {
-      background: white;
-      border-radius: 5px;
-      padding: 15px;
-      margin: 15px 0;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
+section {
+  background: white;
+  border-radius: 0.313rem;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  box-shadow: 0 0.125rem 0.313rem rgba(0,0,0,0.1);
+}
   
-  ul {
-      padding-left: 20px;
-  }
-  
-  footer {
-      background: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-  }
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 0.625rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.fluid-container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2%;
+}
