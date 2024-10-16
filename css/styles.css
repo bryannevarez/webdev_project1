@@ -12,3 +12,41 @@ body {
     margin: auto;
     padding: 20px;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background: #3498db;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+ul li a:hover {
+    background: #2980b9;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
