@@ -49,20 +49,44 @@ nav ul li a:hover {
   background: #2980b9;
   border-radius: 0.313rem;
 }
+
+section {
+  background: white;
+  border-radius: 0.313rem;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  box-shadow: 0 0.125rem 0.313rem rgba(0,0,0,0.1);
+  float: left;
+  width: 65%;
+}
   
+aside {
+  background: #e3e3e3;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  box-shadow: 0 0.125rem 0.313rem rgba(0,0,0,0.1);
+  float: right;
+  width: 30%;}
+
 h1 {
   color: #2c3e50;
   margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 1rem;
 }
   
 h2 {
   color: #2c3e50;
-  margin-top: 1.875rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 1rem;
 }
   
 p {
   line-height: 1.6;
   margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
   
 section {
@@ -79,8 +103,7 @@ footer {
   text-align: center;
   padding: 0.625rem 0;
   position: relative;
-  bottom: 0;
-  width: 100%;
+  clear: both;
 }
 
 .fluid-container{
