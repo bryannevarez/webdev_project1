@@ -79,6 +79,15 @@ img{
   height: auto;
 }
 
+iframe{
+  width: 800px; 
+  height: 450px;
+}
+
+iframe{
+  max-width: 100%;
+}
+
 h1 {
   color: #2c3e50;
   margin-top: 1.25rem;
