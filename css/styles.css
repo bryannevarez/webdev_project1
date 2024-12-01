@@ -133,9 +133,12 @@ footer {
   padding: 2%;
 }
 
-@media screen {
+@media screen and (max-width: 600 px){
   body{
     background-color: lightblue;
   }
-  
+  nav ul{
+    float:none;
+    width:100%;
+  }
 }
