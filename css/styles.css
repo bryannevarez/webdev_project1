@@ -132,3 +132,10 @@ footer {
   margin: 0 auto;
   padding: 2%;
 }
+
+@media screen {
+  body{
+    background-color: lightblue;
+  }
+  
+}
