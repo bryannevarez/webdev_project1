@@ -133,7 +133,7 @@ footer {
   padding: 2%;
 }
 
-@media screen and (max-width: 600 px){
+@media screen and (max-width: 600px){
   body{
     background-color: lightblue;
   }
@@ -142,3 +142,9 @@ footer {
     width:100%;
   }
 }
+
+div {
+  width: 300px;
+  margin: auto;
+}
+
