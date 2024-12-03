@@ -87,6 +87,7 @@ iframe{
   margin-left: auto;
   width: 800px; 
   height: 450px;
+  max-width: 100%;
 }
 
 h1 {
