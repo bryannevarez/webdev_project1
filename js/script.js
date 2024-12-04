@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initMap() {
   const mapOptions = {
-      center: { lat: 25.5686, lng: -103.4692 }, // Durango, Mexico coordinates
+      center: { lat: 25.5686, lng: -103.4692 },
       zoom: 8,
       mapTypeId: google.maps.MapTypeId.TERRAIN
 };
